@@ -30,3 +30,17 @@ print("selected coffee beans(index):",[selected_items])
 print("selected coffee beans(weight):",[weights[i] for i in selected_items])
 print("selected coffee beans(costs):",[costs[i] for i in selected_items])
 
+/*OUTPUT
+weights=[2, 3, 4, 5]
+costs=[10, 20, 30, 40]    
+capacity=10
+max_profit,selected_items=knapsack_max_profit(weights,costs,capacity)
+print("Maximum profit:",max_profit)
+print("selected coffee beans(index):",[selected_items])
+print("selected coffee beans(weight):",[weights[i] for i in selected_items])
+print("selected coffee beans(costs):",[costs[i] for i in selected_items])
+//Maximum profit: 70
+selected coffee beans(index): [[3, 1, 0]]
+selected coffee beans(weight): [5, 3, 2]
+selected coffee beans(costs): [40, 20, 10] */
+
