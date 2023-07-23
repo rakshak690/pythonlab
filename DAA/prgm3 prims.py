@@ -37,3 +37,18 @@ for i in range(n):
     cost=int(input(f"enter the cost between thermal station {i} and {j}:"))
     g.add_edge(i,j,cost)
 g.prim_mst()
+
+/*OUTPUT
+enter the cost between thermal station 0 and 3:6
+enter the cost between thermal station 0 and 4:99
+enter the cost between thermal station 1 and 2:3
+enter the cost between thermal station 1 and 3:8
+enter the cost between thermal station 1 and 4:5
+enter the cost between thermal station 2 and 3:99
+enter the cost between thermal station 2 and 4:7
+enter the cost between thermal station 3 and 4:9
+Thermal station -- connected to   --> Thermal station cost
+    1               --       0     2
+    2               --       1     3
+    3               --       0     6
+    4               --       1     5 */
